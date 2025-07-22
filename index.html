@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio web.WM</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="icono-principal.jpg">
+</head>
+<body>
+<!----------------------CETION DEL HEADER VAV-->
+<div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+<header class="header">
+        <nav class="nav">
+    <div class="button-container">
+        <button class="btn btn-2"><a href="mailto:misaelnova13@gmail.com">Contratame</a></button>
+    </div>
+            <input type="checkbox" id="open-menu" class="header__checkbox">
+    <label for="open-menu" class="header__open-nav-button">=</label>
+
+        <ul class="button-container-2">
+            <li class="btn btn-1"><label for="chat-toggle" id="chat-label-1">Conocimientos</label></li>
+            <li class="btn btn-1"><a href="#Proyectos-main">Experiencia</a></li>
+            <li class="btn btn-1"><a href="#info-educacion">Educación</a></li>
+        </ul>
+    </nav>  
+    <!-- El checkbox oculto -->
+    <input type="checkbox" id="chat-toggle" >
+    
+    <!-- La caja de chat -->
+    <div class="chat-box chat-box-1">
+        <div class="img-conteiner">
+                    </div>        <span class="span-x">x</span>
+            <h3 class="conocimientos-h3">Conocimientos</h3>  
+        <div class="separador-conocimientos">
+            <div class="img-conteiner">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML Logo" class="img-html-y-css">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Logo"class="img-html-y-css">
+        </div>
+
+                <p class="p-chat-box">Cuento con conocimientos en HTML5 y CSS3, aplicando diseño responsive con enfoque Mobile-First, Flexbox y CSS Grid. Utilizo herramientas como Visual Studio Code y Git básico. Me enfoco en estructuras semánticas y buenas prácticas de maquetación. Actualmente estudio JavaScript para seguir desarrollándome como desarrollador web.
+        Estoy siempre dispuesto a aprender y mejorar continuamente mis habilidades..</p>
+        <script>
+            document.querySelector(".span-x ").addEventListener("click",()=>{
+                document.querySelector(".chat-box-1 ").style.display = "none"
+            })
+                        document.querySelector("#chat-toggle").addEventListener("click",()=>{
+                document.querySelector(".chat-box-1 ").style.display = "block"
+            })
+                                    document.querySelector("#chat-label-1").addEventListener("click",()=>{
+                document.querySelector(".home").style='filter: blur(4px);'})
+
+                                                    document.querySelector(".span-x").addEventListener("click",()=>{
+                document.querySelector(".home").style='filter: blur(0px);'
+
+            })
+                </script>
+            </div>
+        </div>
+    
+
+
+<section class="home">
+<div class="home-info">
+    <h1>Wander Misael</h1>
+    <h2>Yo soy 
+        <span style="--i:4;" data-text="Fronted Developer">Fronted Developer</span>
+        <span style="--i:3;" data-text="Diseañador">Diseañador</span>
+        <span style="--i:2;" data-text="Musico">Musico</span>
+        <span style="--i:1;" data-text="Cristiano">Cristiano</span>
+    </h2>
+    <p>🎸Soy una persona autodidacta, creativa y comprometida con el aprendizaje. Además del desarrollo web, soy músico: toco la guitarra, batería, tambora y otros instrumentos. Siempre busco mejorar y crecer tanto en lo personal como en lo profesional.
+</p>
+<h3>📞 Contacto</h3><p>
+Teléfono: 849 856 4309
+Correo: misaelnova13@gmail.com
+</p>
+    <div class="btn-sci">
+        <a href="#Proyectos-main" class="btn-home">Proyectos</a>
+        <div class="aci">
+            <a href="https://github.com/elsami09" target="_blank" class="github-btn"><i class="fab fa-github"></i></a>
+<a href="https://www.facebook.com/profile.php?id=100078190185889" target="_blank" class="social-btn facebook"><i class="fab fa-facebook-f"></i></a>
+<a href="https://www.linkedin.com/in/misael-nova-a95335367/" target="_blank" class="social-btn linkedin"><i class="fab fa-linkedin-in"></i></a>
+        </div>   
+</div>
+</div>
+<div class="home-img">
+    <div class="img-box">
+        <div class="img-item"><!----------------------cambia la img tonto-->
+            <img src="misael.jpg" alt="" class="img-misael">
+        </div>
+    </div>
+</div>
+</section>
+
+    <!---------------------------------------------PROYECTO MAIN -->  
+
+    <main class="main-proyectos"> 
+            <div class="separador_main">
+            <div class="main-creres" id="Proyectos-main">
+                <ul class="list__proyecto">
+        <h2 class="h2-main">Proyectos</h2>
+    <li class="item__proyecto"><a href="https://elsami09.github.io/tienda.WM/"><img src="pagina-1.png" alt="" class="img-proyecto"></a></li>
+    <li class="item__proyecto"><a href="https://elsami09.github.io/el-espacio-/"><img src="pagina-2.png" alt="" class="img-proyecto"></a></li>
+</ul>
+        <div class="info-educacion" id="info-educacion">
+            <h2 class="text-eduquecion">Experiencia y Educación</h2>
+            <h4>Experiencia</h4>
+        <p> Aunque sin experiencia laboral formal, posees las habilidades esenciales y el fundamento técnico para el puesto, junto con gran proactividad y capacidad de aprendizaje.</p>
+
+        <p><h4 class="h4-exp">🎓 Educación</h4>
+        Bachillerato completo
+        Centro Educativo Público, Azua</p>
+        <p>nivel de ingles: B1</p>
+
+        <h3 class="h3-cont">📞Contacto</h3>
+            <p>
+            Teléfono: 849 856 4309
+            Correo: misaelnova13@gmail.com
+            LinkedIn: linkedin.com/in/misaelnova
+            </p>
+        </div>
+</div>
+</div>
+
+</main>
+
+
+</body>
+</html>
