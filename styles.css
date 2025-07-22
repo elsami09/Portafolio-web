@@ -676,9 +676,6 @@ margin-top: -20px;
     width: 100dvw;
 }
 
-.h2-main{
-width: 100%;
-}
 }
 
 @keyframes aparecer{
@@ -756,10 +753,11 @@ border-radius: 8px;
 outline: 4px solid #48e;
 }
 
+
 .h2-main{
 color: var(--color-fff);
 background-color: var(--color3-secundario);
-width: 50%;
+text-align: center;
 padding: 5px;
 border-radius: 6px 6px 6px 0px;
 margin-bottom: 5px;
