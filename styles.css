@@ -651,7 +651,7 @@ animation-delay: calc(.1s* var(--i));
 /*--------------------------------------------------SECTION main-proyectos*/
 
 .main-proyectos{
-width: 100dvw;
+
 display: flex;
 justify-content: center;
 margin-top: 200px;
@@ -665,10 +665,19 @@ animation-range: cover 20% contain 50%  ;
 
 .main-proyectos{
 margin-top:100px;
+    width: 100dvw;
+
 }
 
 .img-misael{
 margin-top: -20px;
+}
+.separador_main{
+    width: 100dvw;
+}
+
+.h2-main{
+width: 70%;
 }
 }
 
@@ -782,5 +791,20 @@ text-align: center;
 .h3-cont{
     margin: 5px;
 }
-/*-----------------------------------------------------------SETION ANIMETION MAIN*/
+/*-----------------------------------------------------------FOOTER END*/
 
+footer{
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-fff);
+    height: 100px;
+    background-color: #033380;
+}
+
+.social-icon{
+margin: 10px;
+}
