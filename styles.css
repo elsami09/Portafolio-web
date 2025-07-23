@@ -391,7 +391,7 @@ border-radius: 5px;
 
 .conocimientos-h3{
     background-color: var(--color-principal);
-    width: 50%;
+    width: 70%;
     padding: 5px;
     border-radius: 0 0 8px 0;
 }
@@ -676,6 +676,7 @@ margin-top: -20px;
     width: 100dvw;
 }
 
+
 }
 
 @keyframes aparecer{
@@ -753,7 +754,6 @@ border-radius: 8px;
 outline: 4px solid #48e;
 }
 
-
 .h2-main{
 color: var(--color-fff);
 background-color: var(--color3-secundario);
@@ -792,6 +792,7 @@ text-align: center;
 /*-----------------------------------------------------------FOOTER END*/
 
 footer{
+    margin-top: 40px;
     width: 100dvw;
     display: flex;
     flex-direction: column;
